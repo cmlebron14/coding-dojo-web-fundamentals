@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+light pink: #d6c3c9;
+light brown: #b49082;
+reddish brown: #98473e;
+gold: #a37c40;
+black: #07090f;
+*/
+
+body {
+  color: #07090f;
+  display: flex;
+  min-height: 100vh;
+}
+
+section {
+  padding: 50px 30px;
+}
+
+.input {
+  background: #eee;
+  width: 40%;
+}
+
+input,
+button {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+.output {
+  border-left: 5px solid #a37c40;
+  width: 60%;
+}
+
+button {
+  background: #98473e;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  padding: 8px 15px;
+}
