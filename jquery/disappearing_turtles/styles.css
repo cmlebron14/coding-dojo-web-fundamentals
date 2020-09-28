@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.turtles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.turtle {
+  border: solid 3px black;
+  cursor: pointer;
+  display: block;
+  margin: 0.5%;
+  width: 21%;
+}
+
+.restore {
+  padding: 0 0.5%;
+  text-align: center;
+}
+
+.restore .btn {
+  background: darkgreen;
+  border: 0;
+  border-radius: 0;
+  color: white;
+  font-size: 21px;
+  margin-top: 1%;
+  padding: 10px 40px;
+}
+
+.restore .btn:hover {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
+  cursor: pointer;
+}
